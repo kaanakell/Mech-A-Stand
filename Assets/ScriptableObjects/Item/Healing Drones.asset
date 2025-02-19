@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ed682da9258034593d025e7625ff90, type: 3}
+  m_Name: Healing Drones
+  m_EditorClassIdentifier: 
+  Name: Healing Drones
+  stats:
+    armor: 0
+    armorRegenerationRate: 0
+    armorRegenerationCooldown: 0
+    healthRegenerationRate: 0.5
+    healthRegenerationCooldown: 2
+    dashSpeedMultiplier: 0
+    dashDamage: 0
+    maxDashCharges: 0
+    dashRechargeTime: 0
+  upgrades:
+  - {fileID: 11400000, guid: 750896ae5feca494180a3d91597b975f, type: 2}
+  - {fileID: 11400000, guid: 3c9a674127ef1d54eb1640788dddc1d2, type: 2}
+  - {fileID: 11400000, guid: 9a731dd84d641ef48bf788b32346e723, type: 2}
+  - {fileID: 11400000, guid: 52166aa0417f13241b3899dbfaca45f1, type: 2}
+  - {fileID: 11400000, guid: 6cfe92421cceccb4dacab13ebbbd011a, type: 2}

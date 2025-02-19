@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424a6815e80497d4b80023eb7167d9d4, type: 3}
+  m_Name: RailGun Tier 4
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Railgun
+  Description: Projectiles now stun enemies for 1 more second.
+  icon: {fileID: 8764616766332596397, guid: 95ba8582bdffbc34693062cfa98872ff, type: 3}
+  upgradeTier: 4
+  weaponData: {fileID: 11400000, guid: a95b0d067579c6c42a9c8469a84411a5, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    knockbackForce: 5
+    numberOfAttacks: 0
+    numberOfHits: 0
+    projectileSpeed: 0
+    stun: 1
+    attackArea: 0
+  item: {fileID: 0}
+  itemStats:
+    armor: 0
+    armorRegenerationRate: 0
+    armorRegenerationCooldown: 0
+    healthRegenerationRate: 0
+    healthRegenerationCooldown: 0
+    dashDamage: 0
+    dashCount: 0

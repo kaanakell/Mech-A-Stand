@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424a6815e80497d4b80023eb7167d9d4, type: 3}
+  m_Name: Electric Field 3
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Electric Field
+  Description: +35 Damage -0.2 Cooldown
+  icon: {fileID: -3291030100177838192, guid: b721f607c6a2311438ce609a3cd6edf7, type: 3}
+  upgradeTier: 3
+  weaponData: {fileID: 11400000, guid: be2f67f74e74c384888f199a460191ec, type: 2}
+  weaponUpgradeStats:
+    damage: 35
+    timeToAttack: -0.2
+    knockbackForce: 0
+    numberOfAttacks: 1
+    numberOfHits: 1
+    projectileSpeed: 0
+    stun: 0
+    attackAreaForProjectileWeapons: 0
+    attackAreaSizeForCloseRangeWeapon: 0
+  item: {fileID: 0}
+  itemStats:
+    armor: 0
+    armorRegenerationRate: 0
+    armorRegenerationCooldown: 0
+    healthRegenerationRate: 0
+    healthRegenerationCooldown: 0
+    dashDamage: 0
+    dashCount: 0

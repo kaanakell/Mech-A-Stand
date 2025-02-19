@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c87c31df231414c9cdf454f763c8c7, type: 3}
+  m_Name: GreenDog
+  m_EditorClassIdentifier: 
+  enemyName: Green Dog
+  maxHp: 200
+  enemyType: 0
+  knockbackResistance: 20
+  meleeDamage: 250
+  meleeDamageCooldown: 0.25
+  experienceReward: 666
+  prefab: {fileID: 8189101760560841054, guid: 42e05473f034df44488a39f346d942ac, type: 3}
+  movementSpeed: 2.5

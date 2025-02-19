@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3636aee5c9f4b74ab765f52c9301ca9, type: 3}
+  m_Name: Rocket Launcher
+  m_EditorClassIdentifier: 
+  Name: Rocket Launcher
+  stats:
+    damage: 400
+    timeToAttack: 5
+    knockbackForce: 1
+    numberOfAttacks: 1
+    numberOfHits: 1
+    projectileSpeed: 3
+    stun: 0
+    attackAreaForProjectileWeapons: 0
+    attackAreaSizeForCloseRangeWeapon: 0
+  weaponBasePrefab: {fileID: 8923796820139436902, guid: 1aa8b3379680e4348b5910e5516d56e8, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 01c5c2bce4d66a940b4dcef2f4808836, type: 2}
+  - {fileID: 11400000, guid: e02f91ca5cddae641ae16d476249eb4e, type: 2}
+  - {fileID: 11400000, guid: afc8fb3729f357b41bc8319869802198, type: 2}
+  - {fileID: 11400000, guid: 5edfef9763ce48d4aa0261395d94f5c8, type: 2}
+  - {fileID: 11400000, guid: c07729e618b783743ba37c2bc5b15d09, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424a6815e80497d4b80023eb7167d9d4, type: 3}
+  m_Name: Jetpack Upgrade 2
+  m_EditorClassIdentifier: 
+  upgradeType: 1
+  Name: Jetpack Upgrade
+  Description: Increase dash damage by 20
+  icon: {fileID: -5786930855017811885, guid: b718baa8c2019154f9212947dfcbded2, type: 3}
+  upgradeTier: 2
+  weaponData: {fileID: 0}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: 0
+    knockbackForce: 0
+    numberOfAttacks: 0
+    numberOfHits: 0
+    projectileSpeed: 0
+    stun: 0
+    attackArea: 0
+  item: {fileID: 11400000, guid: 735e85d1a9ccc0d429b0711f0965b142, type: 2}
+  itemStats:
+    armor: 0
+    armorRegenerationRate: 0
+    armorRegenerationCooldown: 0
+    healthRegenerationRate: 0
+    healthRegenerationCooldown: 0
+    dashDamage: 20
+    dashCount: 0

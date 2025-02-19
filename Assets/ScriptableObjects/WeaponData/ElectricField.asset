@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3636aee5c9f4b74ab765f52c9301ca9, type: 3}
+  m_Name: ElectricField
+  m_EditorClassIdentifier: 
+  Name: Electric Field
+  stats:
+    damage: 20
+    timeToAttack: 2
+    knockbackForce: 0
+    numberOfAttacks: 1
+    numberOfHits: 1
+    projectileSpeed: 0
+    stun: 1
+    attackAreaForProjectileWeapons: 0
+    attackAreaSizeForCloseRangeWeapon: 0
+  weaponBasePrefab: {fileID: 5008914825550559671, guid: 90846f617c9c332478c11cc0dfe0e158, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: ce3b9c1707bfe42428007b88f408ec91, type: 2}
+  - {fileID: 11400000, guid: 1a6dbd220c110fb419421b4b1450b015, type: 2}
+  - {fileID: 11400000, guid: 61f7f5e6d686ccb4d812cd8a041bd270, type: 2}
+  - {fileID: 11400000, guid: 6ed14a60e6b61cf47854c023186a0244, type: 2}
+  - {fileID: 11400000, guid: bb1e100659537ee45bec8f20fd175c3a, type: 2}

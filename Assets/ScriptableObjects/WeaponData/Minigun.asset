@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3636aee5c9f4b74ab765f52c9301ca9, type: 3}
+  m_Name: Minigun
+  m_EditorClassIdentifier: 
+  Name: Minigun
+  stats:
+    damage: 100
+    timeToAttack: 0.3
+    knockbackForce: 0
+    numberOfAttacks: 1
+    numberOfHits: 1
+    projectileSpeed: 8
+    stun: 0
+    attackAreaForProjectileWeapons: 0
+    attackAreaSizeForCloseRangeWeapon: 0
+  weaponBasePrefab: {fileID: 5468444526024016050, guid: 21cdfdb935715a543a3ef41bd1204362, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 33164dba7da83e544a3cf2952a5d5033, type: 2}
+  - {fileID: 11400000, guid: 7e6adc5aa29d353409bd6aa636759035, type: 2}
+  - {fileID: 11400000, guid: daebf17aac30bfa49b16ebac16f4d000, type: 2}
+  - {fileID: 11400000, guid: 15bd59745f6dea8488373adf75c36b94, type: 2}
+  - {fileID: 11400000, guid: 93cda2bf955caf7458a80b5b625b18a0, type: 2}

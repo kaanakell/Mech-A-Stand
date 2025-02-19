@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3636aee5c9f4b74ab765f52c9301ca9, type: 3}
+  m_Name: RailGun
+  m_EditorClassIdentifier: 
+  Name: RailGun
+  stats:
+    damage: 300
+    timeToAttack: 3
+    knockbackForce: 5
+    numberOfAttacks: 1
+    numberOfHits: 900
+    projectileSpeed: 15
+    stun: 0
+    attackAreaForProjectileWeapons: 0
+    attackAreaSizeForCloseRangeWeapon: 0
+  weaponBasePrefab: {fileID: 4935548743507099290, guid: efedbcf8183ffe74e92baf6a761a58fa, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: 38b6c1807154331468af12213f322e83, type: 2}
+  - {fileID: 11400000, guid: db2a7513eb113da4296821fd1d4912ca, type: 2}
+  - {fileID: 11400000, guid: eb3e7b55bd9650b43aef3a12e04a23cc, type: 2}
+  - {fileID: 11400000, guid: f32c9d56a619144479ab083d788f5c45, type: 2}
+  - {fileID: 11400000, guid: 82a23540f2215d84ea73aa46721b0754, type: 2}

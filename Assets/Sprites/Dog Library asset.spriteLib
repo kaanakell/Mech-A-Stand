@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Head Doggo
+    m_Hash: 672687100
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Purple
+      m_Hash: 757692368
+      m_Sprite: {fileID: -3868067851045401684, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3868067851045401684, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: 948349932854112730, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 948349932854112730, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: -6026249766280685086, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6026249766280685086, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Lower jaw Doggo
+    m_Hash: 327247579
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Purple
+      m_Hash: 757692368
+      m_Sprite: {fileID: -7952623148524093507, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7952623148524093507, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: 7849316308331541640, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7849316308331541640, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: 8434627718399823863, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8434627718399823863, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Neck Doggo
+    m_Hash: 292250671
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Purple
+      m_Hash: 757692368
+      m_Sprite: {fileID: -1346121222376744069, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1346121222376744069, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: -9026321080156490100, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9026321080156490100, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: -74652001010889860, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -74652001010889860, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Body Doggo
+    m_Hash: 620595905
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Purple
+      m_Hash: 757692368
+      m_Sprite: {fileID: -2110438896702390166, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2110438896702390166, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Blue
+      m_Hash: 1040475530
+      m_Sprite: {fileID: 4455705905818035395, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4455705905818035395, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    - m_Name: Green
+      m_Hash: 291225893
+      m_Sprite: {fileID: 1199525915349834166, guid: 7070725a8cac604499be25077adb4086, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1199525915349834166, guid: 7070725a8cac604499be25077adb4086, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638731752108743915
+  m_Version: 1

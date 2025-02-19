@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424a6815e80497d4b80023eb7167d9d4, type: 3}
+  m_Name: Rocket Launcher 2
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Rocket Launcher
+  Description: Lower cooldown.
+  icon: {fileID: 3238198194658002288, guid: 379bc3b2144e6e74a92b1685ff15a608, type: 3}
+  upgradeTier: 2
+  weaponData: {fileID: 11400000, guid: 49c62fbd175a6804f95e1dfd15c3033c, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: -1
+    knockbackForce: 0
+    numberOfAttacks: 0
+    numberOfHits: 0
+    projectileSpeed: 0
+    stun: 0
+    attackArea: 0
+  item: {fileID: 0}
+  itemStats:
+    armor: 0
+    armorRegenerationRate: 0
+    armorRegenerationCooldown: 0
+    healthRegenerationRate: 0
+    healthRegenerationCooldown: 0
+    dashDamage: 0
+    dashCount: 0

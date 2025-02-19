@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ed682da9258034593d025e7625ff90, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  Name: Armor
+  stats:
+    armor: 50
+    armorRegenerationRate: 0.5
+    armorRegenerationCooldown: 3
+    healthRegenerationRate: 0
+    healthRegenerationCooldown: 0
+    dashDamage: 0
+    dashCount: 0
+  upgrades:
+  - {fileID: 11400000, guid: 58778173d82f40942adc3e800ce86c5c, type: 2}
+  - {fileID: 11400000, guid: 0d4969559f5172c4a92023d50d8efae5, type: 2}
+  - {fileID: 11400000, guid: 9301c967195cc0042a457f82ec1c8c08, type: 2}
+  - {fileID: 11400000, guid: 5deaf053b7747b343a0eaf507abd11a7, type: 2}
+  - {fileID: 11400000, guid: a68af34e1b8d6a549a909d18d3305847, type: 2}
